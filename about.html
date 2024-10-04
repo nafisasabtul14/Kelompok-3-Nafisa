@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link href="css/carousel.css" rel="stylesheet">  
+    <tittle></tittle> 
+
+<style>
+  body{
+      background-color: lightcyan;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+    .overlay-dark::before{
+      content:"";
+      position: absolute;
+      top:0;
+      left:0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.5);
+      z-index: 1;
+    }
+</style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Safety ID</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarsExample03">
+          <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeri.html">Galeri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Logout</a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+     
+      
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="overlay-dark">
+            <img src="About usnew.jpg" style="width: 100%;" alt="">
+            </div>
+            <div class="container">
+              <div class="carousel-caption text-white text-start">
+                <h1><b><i>Selamat Datang di Website Kami...</i></b></h1>
+                <p><i>Sarana konsultasi jaringan terpercaya dan aman bagi anda</i></p>
+                <p><a class="btn btn-lg btn-primary" href="#">Beranda</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-dark">
+            <img src="Mission.jpg" style="width: 100%" alt="">
+            </div>
+            <div class="container">
+              <div class="carousel-caption text-white text-start">
+                <h1><b><i>Hey there..!!</i></b></h1>
+                <p><i>Experience the future of entertainment with our technology</i></p>
+                <p><a class="btn btn-lg btn-primary" href="#">Tentang Kami</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-dark">
+           <img src="Services.jpg" style="width: 100%" alt="">
+           </div>
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h3><b><i>"Bersama kita lebih!!"</i></b></h3>
+                <p><i>bergerak dan rasakan manfaatnya</i></p>
+                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <div class="container mt-3">
+         
+    <h2 class="text-center"><b><i>Sekilas tentang kami!</i></b></h2>
+    <hr>
+    <p class="text-center"><i>PT Teknologi Utama atau yang lebih dikenal dengan nama merek dagang safety ID merupakan badan usaha yang bergerak di bidang keamanan koneksi dan jaringan.Perusahaan ini terdiri dikarenakan banyaknya keluhan masyarakat mengenai perentas jaringan yang tidak bertanggung jawab yang mengakibatkan aktivitas mereka terganggu. Sehingga perusahaan kami berinisiatif menyediakan layanan kepada klien agar jaringan mereka tetap aman.</i></p>
+    <div class="container px-4 py-5" id="featured-3">
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+              <div class="feature col">
+                <div class="feature-icon bg-gradient fs-2 mb-3">
+                 <img src="about1.jpg" style="widht: 50%;">
+
+                </div>
+                <h3 class="fs-2 text-body-emphasis ">About Us</h3>
+                <p><i>Manajement jaringan dengan teknologi terkini dengan harga terjangkau</i></p>
+                <a href="#" class="icon-link">
+                  Call to action
+                  <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <img src="about2.jpg" alt=""style="widht: 100%; height: auto;">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">About Programmer</h3>
+                <p><i>kami juga melayani jasa pemrograman dan pembuatan website</i></p>
+                <a href="#" class="icon-link">
+                  Call to action
+                  <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <img src="ab3.jpg" alt=""style="widht: 100%; height: auto;">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">About Security</h3>
+                <p><i>perusahaan kami dijamin aman dari segala bentuk pencurian dan peretasan</i></p>
+                <a href="#" class="icon-link">
+                  Call to action
+                  <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">&copy; Safety ID</p>
+          </footer>
+
+        <script src="js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link href="css/carousel.css" rel="stylesheet">
+      <title>Document</title>
+</head>     
+<style>
+    body{
+        background-color: lightcyan;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .overlay-dark::before{
+        content:"";
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 1;
+      }
+</style>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Safety ID</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarsExample03">
+        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galeri.html">Galeri</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Logout</a>
+          </li>
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+   
+
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="overlay-dark">
+            <img src="1.jpg" style="width: 100%;" alt="">
+            </div>
+            <div class="container">
+              <div class="carousel-caption text-white text-end">
+                <h1><b><i>Safety ID</i></b></h1>
+                <p><i>Layanan Keamanan Jaringan terbaik di jawa timur</i></p>
+                 <p><a class="btn btn-lg btn-primary" href="#">Beranda</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-dark">
+            <img src="4.jpg" style="width: 100%" alt="">
+            </div>
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h3><b><i>"Mari kita berkembang bersama"</i></b></h3>
+                <p><i>jangan lupa follow instagram kami @safetyid</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-dark">
+           <img src="5.jpg" style="width: 100%" alt="">
+           </div>
+            <div class="container">
+              <div class="carousel-caption text-white text-end">
+                <h3><b>"Mari kita berkembang bersama"</b></h3>
+                <p><i>jangan lupa follow instagram kami @safetyid</i></p>
+                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <div class="container mt-3">
+         
+    <h2 class="text-center"><i>Safety ID</i></h2>
+    <hr>
+    <p class="text-center"><i>Safety ID merupakan perusahaan jasa Keamanan Jaringan serta Teknologi Informasi dan
+      Komunikasi . Safety ID Hadir memberikan berbagai bentuk layanan jasa dan
+      pemasaran produk Teknologi Informasi,berinovasi dan memberi solusi yang
+      berkaitan dengan layanan perusahaan kami melayani berupa:</i></p>
+      <h3><i><right>DATA CENTER</right></i></h3>
+        <p><i>Data center menjadi sangat penting bagi fungsi perusahaan bisnis
+        yang besar. Data center merupakan fasilitas yang terdiri dari jaringan komputer dan penyimpanan yang digunakan oleh bisnis untuk mengatur, memproses, menyimpan, dan menyebarluaskan data dalam jumlah yang besar.</i></p>
+      <h3><i><right>KEAMANAN JARINGAN</right></i></h3>
+      <p><i>Keamanan Jaringan sangat dibutuhkan dan penting pada
+        suatu perusahaan Anda dan mengalami banyak manfaat
+        bisnis. Keamaanan jaringan dapat membantu menjaga
+        karyawan tetap produktif dan melindungi data serta
+        mengurangi resiko tindakan hukum dari pencurian data.</i></p>
+    <div class="container px-4 py-5" id="featured-3">
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+              <div class="feature col">
+                <div class="feature-icon bg-gradient fs-2 mb-3">
+                 <img src="OIP (17).jpg" style="widht: 50%;">
+
+                </div>
+                <h3 class="fs-2 text-body-emphasis ">Jasa Programmer</h3>
+                <p><i>Kami memberikan layanan berupa pembuatan website dengan coding atau tanpa coding sesuai dengan request anda</i></p>
+                <a href="#" class="icon-link">
+                  Call to action
+                  <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <img src="OIP (14).jpg" alt=""style="widht: 100%; height: auto;">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Keamanan Jaringan</h3>
+                <p><i>Banyaknya pengguna wifi tak jarang mengalami peretasan oleh orang tak berdosa, kami menawarkan jasa untuk mengamankan jaringan anda</i></p>
+                <a href="#" class="icon-link">
+                  Call to action
+                  <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <img src="OIP (16).jpg" alt=""style="widht: 100%; height: auto;">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Kursus programmer</h3>
+                <p>Ingin menjadi programmer..?ayo mampir ke perusahaan kami yang menyediakan kursus programmer terpercaya</p>
+                <a href="#" class="icon-link">
+                  Call to action
+                  <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container col-xxl-8 px-4 py-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img src="Blue Abstract Illustrative Real Estate Property Logo.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="500" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+              <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">“Dapatkan teknologi terdepan untuk memudahkan hidup Anda.”</h1>
+              <p class="lead">Safety.ID melayani dalam hal perlindungan keamanan koneksi dan jaringan dapat mengawasi berbagai aplikasi yang perlu dilindungi sehingga dapat mencegah hacker yang berusaha meretas keamanan jaringan</p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+          <div class="row align-items-center g-lg-5 py-5">
+            <div class="col-lg-7 text-center text-lg-start">
+              <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">“Rasakan layanan profesional dan berkualitas dengan harga yang terjangkau”</p>
+            </div>
+            <div class="col-md-10 mx-auto col-lg-5">
+              <form class="p-4 p-md-5 border rounded-3 bg-info">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword">Password</label>
+                </div>
+                <div class="checkbox mb-3">
+                  <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                  </label>
+                </div>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+                <hr class="my-4">
+                <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+        </div>
+  
+    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+              id="bd-theme"
+              type="button"
+              aria-expanded="false"
+              data-bs-toggle="dropdown"
+              aria-label="Toggle theme (auto)">
+        <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
+        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+            <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+            Light
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+            <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+            Dark
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+            <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#circle-half"></use></svg>
+            Auto
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">&copy; Safety ID</p>
+  </footer>
+        
+    <script src="js/bootstrap.js"></script>
+    
+</body>
+</html>
